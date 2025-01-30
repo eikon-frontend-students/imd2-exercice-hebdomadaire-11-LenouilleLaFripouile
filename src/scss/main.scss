@@ -12,3 +12,58 @@ img,
 video {
   display: block;
 }
+
+.button {
+  margin-left: 50px;
+  margin-top: 50px;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  transition: 0.5s;
+  h1 {
+    color: #f00;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    transition: 0.5s; /* 100% */
+  }
+  h2 {
+    color: #f00;
+    font-family: "Font Awesome 6 Free";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    transition: 0.5s; /* 100% */
+  }
+  h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    transition: 0.5s; /* 128.571% */
+  }
+}
+.button.is-active {
+  background-color: #f00;
+  transition: 0.5s;
+  h1 {
+    color: white;
+    transition: 0.5s;
+  }
+  h3 {
+    color: white;
+    transition: 0.5s;
+  }
+  h2 {
+    color: white;
+    transition: 0.5s;
+  }
+}
